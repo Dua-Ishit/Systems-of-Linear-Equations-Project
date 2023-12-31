@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <title>Linear Equations Project</title>
+        <link rel="icon" href="https://tse2.mm.bing.net/th/id/OIP.o4vX1naBWyGzIDpB5FEOFgHaHa?rs=1&pid=ImgDetMain">
+        <link rel="stylesheet" href="Styles.css">
+        <div class="topnav">
+            <a href="Linear Equations Project.html">Home</a>
+            <a href="Challenge.html">Challenge</a>
+            <a href="Uses-In-Different-Fields.html">Uses in Various Fields</a>
+            <a href="Different Methods.html">Finding solutions</a>
+            <a href="Real-World-Application.html">Real World Application</a>
+            <a class="active" href="Final-Puzzle.html">Final Answer</a>
+            <a href="Graphing-Calculator.html">Desmos Graphing Calculator</a>
+        </div>
+    </head>
+    <body  style= "background-image: url('project.background3.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <h2>Click on the "Challenge" button on the navigation bar to find out what this is about.</h2>
+            <p>Input the answers in the order of the navi<em><b>g</b></em>ation bar, no capital letters. Please note that the Desmos Graphing Calculator tab is not part of this challenge, it is just as a tool for reference. </p>        
+    </body>
+    <form>
+        <input name="pass" id="pass" type="password">
+        <input type="button" value="Submit" onclick="myFunction()">
+    </form>
+    <script>
+        function myFunction() {
+        var pass = document.getElementById("pass").value;
+        if (pass == "interesting") {
+            alert("Correct!");
+            window.location.href = "Finished.html";
+        } else {
+            alert("Incorrect answer");
+        }
+        }
+    </script>
+</html>
